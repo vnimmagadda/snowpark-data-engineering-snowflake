@@ -9,7 +9,7 @@ connection_parameters = {"account":"vbb48100.us-east-1",\
 "role":"SYSADMIN",\
 "warehouse":"COMPUTE_WH",\
 "database":"DEMO_DB",\
-"schema":"PUBLIC"\
+"schema":"APPS"\
 }
 
 test_session = Session.builder.configs(connection_parameters).create()
